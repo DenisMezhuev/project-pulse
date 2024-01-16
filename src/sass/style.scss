@@ -1,4 +1,5 @@
 @import "base/_variables";
+@import "blocks/title";
 
 * {
   font-family: "Museo Sans Cyrl", sans-serif;
@@ -11,8 +12,11 @@ body {
   max-width: 950px;
   margin: 0 auto;
 }
+@import "blocks/title";
 @import "blocks/promo";
 @import "blocks/header";
 @import "blocks/buttons";
 @import "blocks/advantage";
 @import "blocks/media";
+@import "blocks/consultation";
+@import "blocks/forms";
