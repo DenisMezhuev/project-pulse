@@ -33,6 +33,12 @@
       justify-content: space-between;
       align-items: center;
       padding-right: 68px;
+      &_animated {
+        animation-name: heartbeat;
+        animation-duration: 1.5s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+      }
       h4 {
         color: #0d0d0d;
         text-align: center;
